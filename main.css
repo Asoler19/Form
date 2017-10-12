@@ -7,49 +7,58 @@
 }
 .header a{
     position: relative;
-    left: 58%;
+    left: 60%;
     font-size: 16px;
     font-style: normal;
 }
 .sidebar{
     position: absolute;
-    display: inline-block;
-    width: 30%;
+    display: block;
+    width: 35%;
     height: 700px;
     border-right: 1px solid black;
 }
 .sidebar a{
-    color: rgb(0, 124, 0);
+    color: green;
 }
 .sidebar a:visited{
-    color: rgb(0, 124, 0);
+    color: green;
 }
-
+textarea{
+    font: green;
+    border: 3px dotted green;
+}
 .main{
     position: absolute;
     display: inline-block;
-    left: 35%
-    width: 50%
-    height: auto
-    padding: 5px;
+    top: 150px;
+    left: 750px;
+    width: 24%;
+    font-family: trebuchet ms, Arial, sans-serif;
+    font-size: 1.2em;
+    font: color green;
 }
-.footer{
-    position: absolute;
-    top: 829px;
-    width:100%;
-    height:auto;
-    padding: 1em;
-    padding-left: 25px;
-    border-top: 1px solid black;
+.main p{
+    margin-bottom: 50px;
+    margin-top: 0px;
 }
-
 form{
-    margin: 0px 0px 0px 95px;
+    margin: auto;
+    position: relative;
+
 }
 form input{
     display: block;
-    width: 270px;
-    border: 1px solid black;
-    margin: 0px 0px 0px;
-    margin-bottom: 5px;
+    width: 150px;
+    border: 2px dotted blue;
+    margin-bottom: 15px;
+}
+.footer{
+    display: inline-block;
+    position: absolute;
+    top:825px;
+    width: 100%;
+    height: auto;
+    padding: 1em 1em 1em 25px;
+    border-top: 1px solid black;
 }
